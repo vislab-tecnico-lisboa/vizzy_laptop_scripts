@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=yarpmanager
+Comment=Yarpmanager for Vizzy robot
+Exec=bash -i -c '/home/vizzy/yarpmanager.sh'
+Icon=/usr/share/yarplogoname.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Arms down
+Comment=Put Vizzy's arms down
+Exec=bash -i -c '/home/vizzy/arms_down.sh'
+Icon=/usr/share/arms_down.jpeg
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+Name[en_US]=Arms down

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=yarpmanager
+Comment=Yarpmanager for Vizzy robot
+Exec=bash -i -c '/home/vizzy/icub-cluster.sh'
+Icon=/usr/share/icub-cluster.jpg
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+Name[en_US]=icub-cluster
