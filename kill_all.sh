@@ -23,7 +23,7 @@ if ! $SUCCESS; then
 fi
 
 
-sleep 10
+sleep 15
 
 if ! ssh -o ConnectTimeout=10 -t vizzy@vizzy-desktop.local "tmux send-keys -t vizzy_startup.2 C-c"; then
     SUCCESS=false
