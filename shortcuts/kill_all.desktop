@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Close 1, 2, 3
+Comment=Closes everything that was launched by shortcuts 1, 2, and 3
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/kill_all.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/kill_all.jpg
+Terminal=false
+Type=Application
+Categories=Utility;Application;

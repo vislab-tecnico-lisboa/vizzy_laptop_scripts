@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=2 - Yarprobotinterface
+Comment= Launches yarprobotinterface on vizzy-desktop
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/2_yarprobotinterface.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/yarplogoname.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
