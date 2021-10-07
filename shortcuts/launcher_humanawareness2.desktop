@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=HumanAwareness2.0 (VizzyBrain)
+Comment=Launches 3D person body-head pose estimator and tracker on VizzyBrain.
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/launch_humanawareness2.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/launch_humanawareness2.jpg
+Terminal=false
+Type=Application
+Categories=Utility;Application;

@@ -2,8 +2,8 @@
 Version=1.0
 Name=1 - Vizzy Roscore
 Comment= Prepares a tmux session on Vizzy-desktop and launches roscore
-Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/1_launch_roscore.sh'
+Exec=xterm -e '/home/vizzy/repositories/vizzy_laptop_scripts/1_launch_roscore.sh'
 Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/vizzy_roscore.jpg
-Terminal=false
+Terminal=true
 Type=Application
 Categories=Utility;Application;

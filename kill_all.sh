@@ -8,6 +8,7 @@ fi
 if ! $SUCCESS; then
     echo "ssh failed to connect while killing controllers... exiting script";
     echo "You have to kill the processes manually. Open the 'vizzy_startup tmux session at vizzy-desktop'";
+    read -p "Press [ENTER] key to close this window..." ENTER
     exit -1;
 fi
 
@@ -19,6 +20,7 @@ fi
 if ! $SUCCESS; then
     echo "ssh failed to connect while killing yarprobotinterface... exiting script";
     echo "You have to kill the processes manually. Open the 'vizzy_startup tmux session at vizzy-desktop'";
+    read -p "Press [ENTER] key to close this window..." ENTER
     exit -1;
 fi
 
@@ -31,6 +33,7 @@ fi
 if ! $SUCCESS; then
     echo "ssh failed to connect while killing roscore... exiting script";
     echo "You have to kill the processes manually. Open the 'vizzy_startup tmux session at vizzy-desktop'";
+    read -p "Press [ENTER] key to close this window..." ENTER
     exit -1;
 fi
 
@@ -42,6 +45,8 @@ fi
 
 if SUCCESS; then
     echo "All cleaned up! Bye!"
+    read -p "Press [ENTER] key to close this window..." ENTER
 else
     echo "Failed to kill temux vizzy_startup session..."
+    read -p "Press [ENTER] key to close this window..." ENTER
 fi

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Network Vizzy5G
+Comment=Selects the Vizzy5G network configuration on both vizzy-desktop and vizzy-laptop
+Exec=xterm -e '/home/vizzy/repositories/vizzy_laptop_scripts/network_vizzy5g.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/network_vizzy5g.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;

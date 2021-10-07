@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Network Eduroam
+Comment=Selects the Eduroam+VPN network configuration on vizzy-desktop
+Exec=xterm -e '/home/vizzy/repositories/vizzy_laptop_scripts/network_eduroam.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/networkd_eduroam.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;
