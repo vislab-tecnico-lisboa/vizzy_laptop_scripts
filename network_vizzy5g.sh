@@ -1,6 +1,6 @@
 #!/bin/bash
 ssh -t vizzy@vizzy-desktop.local "tmux new-session -d -s network"
-ssh -t vizzy@vizzy-desktop.local "tmux send-keys -t network 'internet_sim' ENTER"
+ssh -t vizzy@vizzy-desktop.local "tmux send-keys -t network 'internet_SIM' ENTER"
 
 read -p "Change the laptop's network to Vizzy5G and press [ENTER]" ENTER
 ping -c 7 vizzy-desktop.local

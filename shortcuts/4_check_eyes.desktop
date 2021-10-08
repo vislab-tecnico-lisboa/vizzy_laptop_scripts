@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
-Name=3 - Launch controllers
-Comment=Launches Vizzy motor controllers on a remote tmux session
+Name=4 - Check eyes
+Comment=Launches uEye Camera Manager to check eye cameras
 Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/4_check_eyes.sh'
 Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/4_check_eyes.png
 Terminal=false

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xterm -e "ping -c 5 asus-rog-avelino.local;echo $; sleep 5"
+xterm -e "ping -c 5 vizzy-desktop.local;echo $; sleep 5"

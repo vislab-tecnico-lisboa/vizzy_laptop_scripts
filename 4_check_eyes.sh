@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ssh -X -t avelino@asus-rog-avelino "ueyecameramanager&; disown; exit"
+ssh -X -t vizzy@vizzy-desktop.local "ueyecameramanager& disown; exit"
