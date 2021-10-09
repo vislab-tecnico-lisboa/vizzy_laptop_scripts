@@ -2,8 +2,8 @@
 Version=1.0
 Name=Main ROS launcher
 Comment=Launches Vizzy's main launcher: vizzy_launch vizzy_real.launch on a tmux session on vizzy-desktop
-Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/launch_0_main.sh'
-Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/launch_0_main.jpg
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/launcher_0_main.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/launcher_0_main.png
 Terminal=false
 Type=Application
 Categories=Utility;Application;
