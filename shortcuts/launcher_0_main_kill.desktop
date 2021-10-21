@@ -2,7 +2,7 @@
 Version=1.0
 Name=KILL Main ROS launcher
 Comment=Kills Vizzy's main ROS launcher
-Exec=xterm -e '/home/vizzy/repositories/vizzy_laptop_scripts/launcher_0_main_kill.sh'
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/launcher_0_main_kill.sh'
 Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/launcher_0_main_kill.png
 Terminal=true
 Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=ISR VPN
+Comment=Connects Vizzy desktop to ISRs VPN
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/network_vpn_isr.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/network_vpn_isr.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;

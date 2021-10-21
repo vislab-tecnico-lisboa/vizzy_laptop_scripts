@@ -4,6 +4,6 @@ Name=Kill HumanAwareness2.0 (VizzyBrain)
 Comment=Kills 3D person body-head pose estimator and tracker on VizzyBrain.
 Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/launcher_humanawareness2_kill.sh'
 Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/launcher_humanawareness2_kill.png
-Terminal=false
+Terminal=true
 Type=Application
 Categories=Utility;Application;
