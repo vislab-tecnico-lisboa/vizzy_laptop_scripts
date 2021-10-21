@@ -43,7 +43,7 @@ if ! ssh -o ConnectTimeout=10 -t vizzy@vizzy-desktop.local "tmux kill-session -t
     $SUCCESS=false
 fi
 
-if SUCCESS; then
+if $SUCCESS; then
     echo "All cleaned up! Bye!"
     read -p "Press [ENTER] key to close this window..." ENTER
 else
