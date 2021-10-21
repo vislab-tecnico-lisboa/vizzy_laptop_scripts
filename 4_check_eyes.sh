@@ -1,7 +1,3 @@
 #!/bin/bash
 
-ssh -X vizzy@vizzybrain.local /bin/bash << EOF
-ueyecameramanager&
-disown
-exit
-EOF
+ssh -X vizzy@vizzy-desktop.local -t "ueyecameramanager"
