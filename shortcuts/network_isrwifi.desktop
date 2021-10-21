@@ -2,8 +2,8 @@
 Version=1.0
 Name=Network ISR-WiFi
 Comment=Selects the ISR-WiFi network configuration on both vizzy-desktop and vizzy-laptop
-Exec=xterm -e '/home/vizzy/repositories/vizzy_laptop_scripts/network_isrwifi.sh'
-Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/network_isr_wifi.png
-Terminal=false
+Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/network_isrwifi.sh'
+Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/network_isrwifi.png
+Terminal=true
 Type=Application
 Categories=Utility;Application;
