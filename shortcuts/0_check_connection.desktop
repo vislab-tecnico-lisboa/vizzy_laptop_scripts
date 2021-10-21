@@ -4,6 +4,6 @@ Name=Ping vizzy-desktop
 Comment=Checks the connection to vizzy-desktop.local
 Exec=bash -i -c '/home/vizzy/repositories/vizzy_laptop_scripts/0_check_connection.sh'
 Icon=/home/vizzy/repositories/vizzy_laptop_scripts/shortcuts/icons/check_connection.png
-Terminal=false
+Terminal=true
 Type=Application
 Categories=Utility;Application;
